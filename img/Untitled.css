@@ -1,0 +1,28 @@
+.iPhone_8__2 {
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+.Ellipse_1 {
+	animation: 0.2s linear 0s 1 normal forwards running Ellipse_1;
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+@keyframes Ellipse_1 {
+	0% {
+		background-color: rgba(89,42,45,1);;
+		transform: rotate(0deg);
+	}
+}
+.image_1 {
+	animation: 0.2s linear 0s 1 normal forwards running image_1;
+	transform-box: fill-box;
+	transform-origin: 50% 50%
+}
+@keyframes image_1 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
