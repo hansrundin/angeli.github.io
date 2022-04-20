@@ -1,0 +1,50 @@
+body{
+display:-ms-flexbox;
+display:flex;-ms-flex-align:center;align-items:center;
+margin:0;
+padding:0;
+width:100%;
+height:100vh;
+min-height:268px;
+font-family:copperplate,monospace;
+font-weight:400;
+font-style:normal;
+font-size:12px;
+line-height:1.8em;
+letter-spacing:.08em;
+background-color:#C1472C;color:#FFFFFF;overflow-x:hidden;overflow-y:auto;text-rendering:optimizeLegibility;text-align:center}
+
+h1{display:none}
+
+a{color:#FFFFFF;text-decoration:none;background:transparent}a:active a:visited,a:hover{color:#FFFFFF;text-decoration:underline}
+
+img{
+
+max-width:100%;
+}
+
+.wrap{margin:0 auto;padding:0vw 5vw 5vw 5vw;max-width:350px}
+
+address,header{margin:0 0 2em;font-style:normal}
+
+section:not(:last-child){margin:0 0 4em}p:not(:last-child){margin:0 0 1.5em}
+
+.footer{
+        position:-webkit-sticky; 
+        position:sticky; 
+        bottom:0; 
+        width:50%;
+        padding: 0 0 5% 0;
+       display:inline-block   
+        }
+
+.blink_me {
+ 
+    animation: blinker 0.3s infinite;
+}
+
+@keyframes blinker {    
+  0% {
+    opacity: 0%;
+  }
+}
